@@ -7,14 +7,14 @@
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
-    background-color: #f5f5f5;
+    background-color: #f4f4f4;
     color: #333;
 }
 
 header {
-    background-color: #8B4513; /* Brown color */
+    background-color: #8B4513;
     color: #fff;
-    padding: 10px;
+    padding: 15px 0;
 }
 
 nav ul {
@@ -24,35 +24,99 @@ nav ul {
 }
 
 nav ul li {
-    margin: 0 15px;
+    margin: 0 20px;
 }
 
 nav ul li a {
     color: #fff;
     text-decoration: none;
     font-weight: bold;
+    font-size: 1.2rem;
 }
 
 nav ul li a:hover {
     text-decoration: underline;
 }
 
-main {
-    padding: 20px;
-}
-
-footer {
-    background-color: #8B4513;
-    color: #fff;
+.hero {
     text-align: center;
-    padding: 10px;
+    background-color: #f9f9f9;
+    padding: 50px 0;
 }
 
-.hero, .about, .products, .contact {
+.hero h1 {
+    font-size: 3rem;
+    color: #8B4513;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    color: #555;
+}
+
+.hero img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.services {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 10%;
+}
+
+.service-item {
     text-align: center;
+    width: 30%;
 }
 
-h1 {
-    font-size: 2.5em;
+.service-image {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.about, .contact-form {
+    text-align: center;
+    padding: 50px 10%;
+}
+
+.about img, .product-image {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.product-list {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 10%;
+}
+
+.product-item {
+    text-align: center;
+    width: 40%;
+}
+
+.product-item img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.contact-form form {
+    width: 60%;
+    margin: 0 auto;
+}
+
+.contact-form label {
+    display: block;
     margin-bottom: 10px;
+    font-size: 1rem;
 }
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 10px
